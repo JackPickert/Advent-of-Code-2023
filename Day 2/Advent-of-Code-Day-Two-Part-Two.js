@@ -1,6 +1,6 @@
 
 
-function cubesLessThan(str) {
+function fewestCubes(str) {
     const allProducts = [];
     const redRegex = /[1-9]*[0-9] red/g
     const greenRegex = /[1-9]*[0-9] green/g
