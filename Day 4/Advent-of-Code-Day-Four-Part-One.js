@@ -1,6 +1,5 @@
 function scratchCards(str) {
     let myBigSum = 0;
-    let mySum = 0;
     const everyLine = str.split("\n");
     const cardNumbersRegex = /Card  * *[0-9]*[0-9]*[0-9]:/g; 
     for (let i = 0; i < everyLine.length; i += 1) {
